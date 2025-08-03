@@ -1,0 +1,129 @@
+# Telegram Bot - Git Ignore File
+
+# Environment variables (Biến môi trường)
+.env
+.env.local
+.env.*.local
+
+# Python cache files (File cache Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments (Môi trường ảo)
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE files (File IDE)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files (File được tạo bởi hệ điều hành)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files (File log)
+*.log
+logs/
+
+# Temporary files (File tạm thời)
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Database files (File cơ sở dữ liệu)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data (File cấu hình chứa dữ liệu nhạy cảm)
+config_local.py
+secrets.py
+
+# Test coverage reports (Báo cáo test coverage)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
