@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/main.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/main.py"
+    }
+  ],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "OPENAI_API_KEY": "@openai_api_key",
+    "GLM_API_KEY": "@glm_api_key",
+    "CEREBRAS_API_KEY": "@cerebras_api_key",
+    "DEFAULT_TRANSLATOR": "openai"
+  }
+}
