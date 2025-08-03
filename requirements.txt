@@ -1,0 +1,12 @@
+# Telegram Bot Dependencies (Các thư viện phụ thuộc cho Telegram Bot)
+python-telegram-bot>=20.0
+openai>=1.30.0
+python-dotenv==1.0.0
+langdetect==1.0.9
+httpx>=0.27.0
+APScheduler==3.10.4
+Flask>=2.0.0
+
+# Optional dependencies for better performance (Thư viện tùy chọn để tăng hiệu suất)
+pytz>=2021.1
+requests>=2.31.0
